@@ -1,0 +1,193 @@
+.patient {
+  display: flex;
+  flex-direction: row;
+  background-color: #ececed;
+  align-content: center;
+  align-items: center;
+  width: 71.5rem;
+  height: 8rem;
+  border: 1px solid #222;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 2%;
+}
+
+.patient-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  border: 1px solid #222;
+  margin-left: 1rem;
+}
+
+.heading-patient h2 {
+  margin-bottom: -0.8rem;
+}
+
+.patient-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.data-patient {
+  display: flex;
+  flex-direction: row;
+}
+
+.subdata {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10rem;
+  margin-bottom: 3rem;
+}
+
+.subdata p {
+  margin-bottom: -1rem;
+}
+
+.digital-main {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececed;
+  align-content: center;
+  align-items: center;
+  width: 71.5rem;
+  height: 38.5rem;
+  border: 1px solid #222;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 2%;
+}
+
+.digital-heading {
+  display: flex;
+  flex-direction: row;
+  color: #63c5ef;
+  width: 70.5rem;
+  height: 3rem;
+  border: 1px solid #222;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 5%;
+}
+
+.digital-heading h2 {
+  margin: 0.5rem;
+}
+
+.digital-heading span {
+  color: #78c461;
+}
+
+.digital-heading button {
+  width: 3rem;
+  border-radius: 100%;
+  background-color: #d0d0d1;
+  color: #63c5ef;
+  margin-left: 49rem;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 20rem;
+  height: 100%;
+}
+
+.upper-heading {
+  width: 50rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #1fa2ee;
+  margin-top: 0.5rem;
+}
+
+.upper-heading h3{
+  margin: 0.5rem;
+}
+
+.special{
+  padding-left: 33rem;
+}
+
+.disease{
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+  height: 2.5rem;
+  background-color: #fffefe;
+  border: 1px solid #222;
+  justify-content: space-between;
+}
+
+.disease p{
+  margin-left: 1rem;
+}
+
+.outline-btn{
+  font-size: 20px;
+  color:#1fa2ee;
+  border: 1px solid #1fa2ee;
+  border-radius: 5%;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.filled-btn{
+  font-size: 19px;
+  border: 1px solid #1fa2ee;
+  color:#fff;
+  background-color: #1fa2ee;
+  border-radius: 5%;
+  padding: 0 1rem;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+
+.main-lower{
+  width: 50rem;
+  height: 16rem;
+  border: 1px solid #222;
+  border-radius: 3%;
+}
+
+.Lower-section h2{
+  background-color: #585959;
+  border-radius: 1%;
+  color: #fff;
+  text-align: center;
+}
+
+.search{
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  border: 1px solid #222;
+  justify-content: space-between;
+  margin-top: -1.3rem;
+  margin-bottom: 1rem;
+}
+
+.search form{
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+
+.main-lower{
+  text-align: center;
+}
+
+.last-footer{
+  padding-top: 11rem;
+}

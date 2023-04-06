@@ -1,0 +1,98 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  width: 20rem;
+  height: 100%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  background-color: #ececed;
+  align-content: center;
+  align-items: center;
+  width: 19rem;
+  height: 8rem;
+  border: 1px solid #222;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 2%;
+}
+
+.doc-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.doc-info h2 {
+  margin-top: 1rem;
+}
+
+.doc-info p {
+  margin-top: -1rem;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  border: 1px solid #222;
+  margin-left: 1rem;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons button {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: none;
+  background: none;
+  background-color: #ececed;
+  margin-bottom: 10px;
+  border: 1px solid #222;
+  margin: 0.5rem;
+  border-radius: 4%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.btn-info {
+  font-size: 1rem;
+}
+
+.consultation-menu h3,
+.lab-menu h3 {
+  background-color: #585858;
+  color: #fff;
+  width: 19rem;
+  height: 2rem;
+  border: 1px solid #222;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 3%;
+  text-align: center;
+}
+
+.consultation-menu button,
+.lab-menu button {
+  width: 19rem;
+  height: 2rem;
+  border: none;
+  background: none;
+  background-color: #fff;
+  margin: 0.3rem 0.5rem;
+  border: 1px solid #222;
+  font-size: 1rem;
+}
+
+.consultation-menu button:hover,
+.lab-menu button:hover{
+  background-color: #21a3ed;
+}
